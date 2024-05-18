@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<title>My portfolio</title>
+<link rel="icon" href="index.html" type="image/x-icon">
+
+<style>
+    html { font-size: 22px}
+     body{background-color: rgb(14, 5, 0); color:rgba(168, 162, 162, 0.945)}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: centre;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/intro-1656458427.jpg);
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-left">
+    <a href="#Home" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <margin: 10px;></margin:>
+  <fieldset><header class="w3-container w3-center" style="padding:20px 20px" id="home">
+   <legend> <h1 class="w3-hover-text-blue"><b>Sharon Tsilu</b></h1>
+    <p>Photographer and Web Designer.</p></legend>
+    <img src="/images/" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:50%">
+  </fieldset>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/images/1.jpg" style="width:80%">
+        <img src="/images/20230926_083447.jpg" style="width:78%">
+        <img src="/images/laptop-dark-background-placed-158206527.webp" style="width:80%">
+      </div>
+
+        <div class="w3-half">
+          <img src="/images/IMG-20240315-WA0020.jpg" style="width:80%">
+          <img src="/images/pexels-photo-403495.jpeg" style="width:80%">
+          <img src="/images/download (2).jpeg" style="width:85%">
+        </div>
+      <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About me</h2>
+    <hr class="w3-opacity">
+    <p>My name is Sharon Tsilu, I'm from Papua New Guinea in an Island Province of Bougainville.Bougainville is located
+        some 900 kilomtres from mainland PNG, and much closer to the Solomon Islands. I am a student of Kokopo Business
+        College undertaking business computing courses and also a web designer and Photographer.
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <fieldset>
+    <p class="w3-wide">Photographer</p>
+    <div class="w3-light-black">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">My web page</p>
+    <div class="w3-light-black">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">50%</div>
+    <div>
+    </fieldset>
+     <!-- End About Section -->
+
+    <!-- Projects section -->
+    
+    <h3 class="w3-padding-16">My projects</h3>
+    <p class="project">
+
+      <h3>Project 1</h3>
+      <p>Bougainville Tours in Papau New Guinea</p>
+        <a href="https://bougtours.com/bougainville/" target="_blank"><img src="/images/sam_2419.jpg" alt="project 1" style="width:40%" title="chebu stone buka">
+        </a>
+
+
+         <h3>project 2</h3>
+       <p>My page</p>
+         <a href="https://www.instagram.com/sashachickatsilu/" target="_blank"><img src="images/Mirrorless-Cameras-jpg.webp" alt="Project 2" style="width:40%" title="mirrorless camera">
+        </a>
+        <!-- End of Projects -->
+
+        <!-- Contact Section -->
+        <div class="w3-main w3-padding-18" style="margin-left:15%"> 
+          <div class="w3-padding-18w3-content w3-text-hover grey" id="contact" style="margin-bottom:15px">
+    <fieldset>
+      <legend><h2>Contact Me</h2></legend>
+      <hr class="w3-opacity">
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-left"></i> AROB, Papua New Guinea</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-left"></i> Phone: 70684211</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-left"> </i> Email: tsilu_sharon@kbc.ac.pg</p>
+    </fieldset>
+        
+    <fieldset>
+      <legend><p>Lets get in touch. Send me a message:</p></legend>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-12 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-12 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-12 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-padding-12 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </fieldset>
+  <!-- End Contact Section -->
+</div>  
+<!-- Footer -->
+<footer class="w3-container w3-padding-25 w3-light-black w3-center w3-opacity w3-xlarge" style="margin:16px">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-blue">w3.css</a></p>
+<!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+document.getElementById("mySidebar").style.width = "60%";
+document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+
+
+   
+     
+  
